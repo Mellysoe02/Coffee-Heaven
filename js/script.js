@@ -205,8 +205,8 @@ function updateTotal(moneyChange) {
 // Item Display: Item 1: Caffe Americano
 const item1Display = document.querySelector(".item1-display");
 let item1Counter, item1Amount, up1, down1, remove1;
-if (localStorage.getItem("item1")) {
-  item1Counter = parseInt(localStorage.getItem("item1"));
+if (localStorage.getItem("itemnumber")) {
+  item1Counter = parseInt(localStorage.getItem("itemnumber"));
 } else {
   item1Counter = 0;
 }
